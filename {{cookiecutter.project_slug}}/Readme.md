@@ -1,4 +1,4 @@
-{{cookiecutter.projectname}}
+{{cookiecutter.project_name}}
 =============================
 
 Use `make stow` to install the dotfiles.
