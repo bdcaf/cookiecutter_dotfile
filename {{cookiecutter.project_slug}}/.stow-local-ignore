@@ -1,0 +1,7 @@
+Makefile
+Readme.md
+.stowrc
+.stow.*
+.git.*
+.vim/undo/
+.vim/dein/

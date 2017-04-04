@@ -1,0 +1,3 @@
+	--verbose
+	--override=.vim
+	--override=.config/nvim
