@@ -1,7 +1,8 @@
-cc_dotfiles
+dotfiles template
 ===========
 
-Template for dotfile projects
+Template for dotfile projects.  Prepared so that they can be easily
+managed using [stow](https://www.gnu.org/software/stow/).
 
 Requirements
 ------------
