@@ -9,7 +9,7 @@ Install `cookiecutter` command line: `pip install cookiecutter`
 
 Usage
 -----
-Generate a new Cookiecutter template layout: `cookiecutter gh:bdcaf/cookiecutter-cc_dotfiles`    
+Generate a new Cookiecutter template layout: `cookiecutter gh:bdcaf/cookiecutter_dotfile`    
 
 License
 -------
