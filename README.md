@@ -1,16 +1,17 @@
 dotfiles template
 ===========
 
-Template for dotfile projects.  Prepared so that they can be easily
-managed using [stow](https://www.gnu.org/software/stow/).
+[Cookiecutter](https://github.com/audreyr/cookiecutter) template for dotfile projects.  
+These projects are generated that the actual files stay in the generated dotfile directory, and are
+managed using [stow](https://www.gnu.org/software/stow/), which creates matching links in the target path (usually `$HOME`).
 
 Requirements
 ------------
-Install `cookiecutter` command line: `pip install cookiecutter`    
+Install [`cookiecutter`](https://github.com/audreyr/cookiecutter) command line: `pip install cookiecutter`    
 
 Usage
 -----
-Generate a new Cookiecutter template layout: `cookiecutter gh:bdcaf/cookiecutter_dotfile`    
+Generate a new Cookiecutter template layout: `cookiecutter gh:bdcaf/cookiecutter_dotfile`.  See the generated Readme.md for further instructions.    
 
 License
 -------
