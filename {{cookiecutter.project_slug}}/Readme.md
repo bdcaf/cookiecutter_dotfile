@@ -15,9 +15,13 @@ You probably want to edit `.stow-local-ignore`.  It already is configured to ign
 Installation
 -------------
 
+dotfiles can be copied in or being adopted using: `stow -v --target="$HOME" --adopt . `.
+
 Use `make stow` to install the dotfiles.
 
 Use `make install` to script installation of all necessary components.
+
+Use `make update` for updates.
 
 
 Further reading

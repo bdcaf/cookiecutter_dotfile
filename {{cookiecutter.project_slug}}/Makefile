@@ -1,6 +1,8 @@
+all:
+
 stow: 
 	stow -v --target="$$HOME" -S .
 
 install:
-	brew install git
-
+	# scripts needed for setup
+update:
