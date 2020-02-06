@@ -39,6 +39,9 @@ I use this to stow vim config (in folder `config`) to both  `~/.vim` as well as 
 
 The trick is also handy if you don't like working with hidden directories.
 
+**a little warning**
+`make` runs commands in the `Makefile`. Spend a little time familiarizing you with the code in there - bad people might hide malicious code in there. It could also be abused to exfiltrate data.
+
 License
 -------
 This project is licensed under the terms of the [MIT License](/LICENSE)
