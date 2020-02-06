@@ -28,6 +28,8 @@ Tricks
 
 **Makefile tricks**
 
+- Makefile uses `$` itself - so to work with environment variables you need to add another `$` - like the `$$HOME` in the default config.
+- Makefile doesn't know about `~` - use `$$HOME` to point to it.
 - if you need to stow into multiple places you can add several lines like this
 
 ```
