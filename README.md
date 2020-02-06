@@ -41,6 +41,7 @@ The trick is also handy if you don't like working with hidden directories.
 
 **a little warning**
 `make` runs commands in the `Makefile`. Spend a little time familiarizing you with the code in there - bad people might hide malicious code in there. It could also be abused to exfiltrate data.
+The code in the default `Makefile` is reasonable simple - actually just one line doing anything (line 4) - and a few empty definitions. If you find one containing lots of code be wary.
 
 License
 -------
