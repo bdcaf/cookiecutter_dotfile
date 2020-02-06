@@ -17,6 +17,15 @@ Generate a new Cookiecutter template layout: `cookiecutter gh:bdcaf/cookiecutter
 Tricks
 ------
 
+**stow config**
+
+- `stow-local-ignore` is essential to keep your documentation and other local files out of the config dir.
+- `stowrc` allows to configure options for stow
+
+**git config**
+- `.gitignore` keeps temporary files out of git.
+- `.gitkeep` is a hack so as git will not store empty directories - they may be empty as all files inside were ignored. They will miss in cloned repos and some software gives you errors due to this. Best to create as an empty file with `touch .gitkeep` in the correct location.
+
 **Makefile tricks**
 
 - if you need to stow into multiple places you can add several lines like this
